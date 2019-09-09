@@ -1,7 +1,7 @@
 'use strict'
 
-const Plugins = require('./Plugins')
+const {GoogleSocialLogin} = require('./Google')
 
 module.exports = {
-  plugins: Plugins
+  plugins: {GoogleSocialLogin}
 }
